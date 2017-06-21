@@ -1,8 +1,71 @@
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 header {
 	background-color: #ffffff;
 	width: 960px;
+	float: left;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
 	border-bottom: 5px solid #cccccc;
+	
+}
+
+#nameBox {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-top: 0px;
+	padding: 25px;
+	float: left;
+
+}
+
+nav {
+	background-color: #ffffff;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+	width: 300px;
+	margin-top: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+}
+
+ul.menu li {
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+#about {
+	padding-right: 20px;
+	border-right: 1px solid #cccccc;
+}
+
+#portfolio {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #cccccc;
+}
+
+#contact {
+	padding-left: 20px;
+}
+div {
+	clear: both;
 }
