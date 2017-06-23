@@ -131,11 +131,14 @@ p {
 }
 
 .pContainer {
-	width: 275px;
+	position: relative;
+	width: 274px;
 	height: 200px;
 	float: left;
 	margin-bottom: 50px;
 }
+
+/* Portfolio Page */
 
 img.project {
 	display: block;
@@ -143,11 +146,31 @@ img.project {
   	max-height: 200px;
   	width: auto;
   	height: auto;
+  	float: left;
 }
 
 #project1, #project3, #project5 {
 	margin-right: 40px;
 }
+
+.pBox {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 267px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	margin-top: 130px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+/* Sidebar */
 
 .asideBox {
 	width: 250px;
